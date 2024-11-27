@@ -8,5 +8,4 @@ class VehicleService:
         return self.factory.create_vehicle(vehicle_type)
 
     def create_electric_vehicle(self):
-        # Logic for electric vehicle creation
-        pass
+        return self.factory.create_vehicle('electric_car')

@@ -6,4 +6,6 @@ class ElectricVehicleAdapter(Vehicle):
         self.electric_car = electric_car
 
     def __str__(self):
-        return f"Electric {self.electric_car.name} with {self.electric_car.wheels} wheels and battery capacity {self.electric_car.battery_capacity}"
+        return (f"Electric {self.electric_car.name} with "
+                f"{self.electric_car.wheels} wheels and "
+                f"battery capacity {self.electric_car.battery_capacity}")
