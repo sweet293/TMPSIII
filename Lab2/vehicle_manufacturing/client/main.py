@@ -17,7 +17,7 @@ def main():
     print(bike1)
 
 
-    '''car = factory.create_vehicle('car')
+    car = factory.create_vehicle('car')
     print("Standard car:", car)
 
     # Create an electric car
@@ -26,9 +26,9 @@ def main():
 
     # Decorate the car with GPS
     gps_bike = GPSDecorator(bike1)
-    print("Bike with GPS:", gps_bike)'''
+    print("Bike with GPS:", gps_bike)
 
-    # Create an electric car
+    '''# Create an electric car
     electric_car = factory.create_vehicle('electric_car')
 
     # Attach observers
@@ -37,7 +37,7 @@ def main():
 
     # Simulate driving
     for _ in range(12):  # Drive until the battery is depleted
-        electric_car.drive()
+        electric_car.drive()'''
 
 
 if __name__ == "__main__":
